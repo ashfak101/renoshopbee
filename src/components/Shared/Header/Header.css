@@ -1,0 +1,91 @@
+.container{
+    padding: 0 68px 0 71px;
+    
+}
+.bg{
+    background-color: black;
+    color: #FFF;
+}
+
+.nav{
+    background-color: black;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-info{
+    display: flex;
+    padding: 16px 0;
+    
+}
+.nav-info .text{
+    font-size: 16px;
+    margin-right: 16px;
+   
+}
+.nav-social{
+    margin: 16px 0;
+}
+.nav-social .icon{
+    padding: 12px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+    position: sticky;
+}
+.menu-title{
+    font-size: 24px;
+    
+    text-transform: uppercase;
+}
+.menu-title span{
+    color: #3CB878;
+}
+.menu ul{
+    padding: 0;
+    
+    display: flex;  
+}
+.menu ul li{
+    list-style: none;
+    color: #333333;
+    text-transform: uppercase;
+    margin-top: 8px;
+    margin-right: 12px;
+    font-size: 14px;
+}
+.menu-icons{
+    display: flex;
+    margin-top: 8px;
+    gap: 16px;
+    
+}
+.menu-icon{
+        width: 16px;
+        
+}
+.icon-cart{
+    position: relative;
+}
+.counter{
+    position: absolute;
+    font-size: 14px;
+    background-color: lawngreen;
+    top: -5px;
+    color: #fff;
+    text-align: center;
+    width: 15px;
+    height: 20px;
+    border-radius: 50%;   
+}
+.btn{
+    background-color: #fff;
+    padding: 8px 16px;
+    border: 2px solid #333;
+    border-radius: 2px;
+}
+.btn:hover{
+    color: #3CB878;
+}
