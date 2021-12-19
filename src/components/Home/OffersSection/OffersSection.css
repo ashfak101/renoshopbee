@@ -1,0 +1,39 @@
+.offer-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.offer-content-discount{
+    background-color: #2E3348;
+    text-align: center;
+    padding: 64px 50px;
+}
+.offer-content-discount h1{
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.offer-content-discount p{
+    font-size: 14px;
+    color: #FFFFFF;
+   margin-bottom: 10px;
+}
+.offer-content-discount input{
+    padding: 12px 70px 12px 10px;
+}
+.offer-content-discount button{
+    background-color: #3CB878;
+    color: #FFFFFF;
+    padding: 12px 4px;
+    margin-left: 6px;
+    border: none;
+}
+.brand-img{
+    text-align: center;
+    padding-top: 40px;
+ 
+}
+.brand-img img{
+    background-color: #F5F6F9;
+    width: 100px;
+  margin: 40px;
+}
