@@ -5,16 +5,24 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faBehance} from '@fortawesome/free-brands-svg-icons'
 import visa from '../../../Images/card/visa5@1X.png'
 import paypal from '../../../Images/card/paypal11@1X.png'
 import amazon from '../../../Images/card/amazon3@1X.png'
 import masestro from '../../../Images/card/maestro1@1X.png'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     const facebook = <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
     const twiter = <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
     const instagram = <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
     const linkedIn = <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+    const behance = <FontAwesomeIcon icon={faBehance}></FontAwesomeIcon>
+    const address = <FontAwesomeIcon icon={faGlobe}></FontAwesomeIcon>
+    const MailBulk = <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+    const PhoneAltulk = <FontAwesomeIcon icon={faPhoneAlt}></FontAwesomeIcon>
     return (
         <div className=''> 
             <div className='footer-head footer-container'>
@@ -24,6 +32,7 @@ const Footer = () => {
                     <i>{twiter}</i>
                     <i>{linkedIn}</i>
                     <i>{instagram}</i>
+                    <i>{behance}</i>
                 </div>
             </div>
           <div className='hr'></div>
@@ -61,9 +70,9 @@ const Footer = () => {
                 <div className='footer-body-content'>
                     <h3>Contact info</h3>
                     <ul>
-                        <li>   1234 Your Address, Country. </li>
-                        <li>mail@domain.com</li>
-                        <li>+1 234 5678 9999</li>
+                        <li> {address}  1234 Your Address, Country. </li>
+                        <li>{MailBulk}   mail@domain.com</li>
+                        <li>{PhoneAltulk}  +123456789999</li>
                       
                     </ul>
                 </div>

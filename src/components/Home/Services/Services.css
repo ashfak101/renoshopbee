@@ -10,10 +10,12 @@
 }
 .services-content i{
    font-size: 24px;
+ 
 }
 .services-content h3{
     font-size: 18px;
     text-transform: uppercase;
+    margin-top: 13px;
 }
 .services-content p{
     font-size: 13px;

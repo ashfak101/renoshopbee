@@ -33,7 +33,15 @@
     display: flex;
     justify-content: space-between;
     margin: 16px;
-    position: sticky;
+   
+}
+.scroll{
+    position: fixed;
+   width: 100%;
+    z-index: 10;
+    margin-top: -55px;
+    background-color: white;
+    padding: 25px 160px;
 }
 .menu-title{
     font-size: 24px;
@@ -56,27 +64,32 @@
     margin-right: 12px;
     font-size: 14px;
 }
-.menu-icons{
+.menu ul li:hover{
+    color: #3CB878;
+    cursor: pointer;
+}
+.menu .menu-icons{
     display: flex;
     margin-top: 8px;
     gap: 16px;
+    position: relative;
+    color: black;
     
 }
-.menu-icon{
-        width: 16px;
-        
+.menu-icon-fix{
+   margin-right: -60px;
 }
-.icon-cart{
-    position: relative;
-}
+
+
 .counter{
     position: absolute;
-    font-size: 14px;
-    background-color: lawngreen;
-    top: -5px;
+    font-size: 12px;
+    background-color: #3CB878;
+    top: -12px;
+    left: 5px;
     color: #fff;
     text-align: center;
-    width: 15px;
+    width: 25px;
     height: 20px;
     border-radius: 50%;   
 }

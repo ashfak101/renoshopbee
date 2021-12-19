@@ -26,6 +26,9 @@
     position: relative;
     transition: 3s;
 }
+.product-card p{
+    color: #3CB878;
+}
 .product-icons{
     position: absolute;
     display: flex;
@@ -40,9 +43,26 @@
     visibility: visible;
     
 }
-.product-icons i{
+.product-icons .icon {
     color: #fff;
     background-color: #3CB878;
     margin-bottom: 5px;
     padding: 2px 4px;
+    
+}
+
+.product-icons .icon:hover{
+    color: #333;
+    cursor: pointer;
+}
+.wishlist{
+    color: red;
+  
+    background-color: #3CB878;
+    margin-bottom: 5px;
+    padding: 2px 4px;
+}
+.star{
+   font-size: 10px;
+    color: lightcoral !important;
 }
